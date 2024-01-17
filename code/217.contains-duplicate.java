@@ -6,7 +6,7 @@ class Solution {
             if (numbers.contains(nums[i])) return true;
             numbers.add(nums[i]);
         }
-
+        
         return false;
     }
 }
