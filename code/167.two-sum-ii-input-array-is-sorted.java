@@ -11,9 +11,9 @@ class Solution {
             } else if (sum < target) {
                 a_pointer += 1;
             } else {
-                return new int {a_pointer+1, b_pointer+1};
+                return new int[] {a_pointer+1, b_pointer+1};
             }
         }
-        return new int {a_pointer+1, b_pointer+1};
+        return new int[] {a_pointer+1, b_pointer+1};
     }
 }
